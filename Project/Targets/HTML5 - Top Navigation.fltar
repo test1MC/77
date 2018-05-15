@@ -13,12 +13,15 @@
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
   ConditionTagExpression="include[General.Online]exclude[General.PDF]"
   DefaultUrl="/Content/Home.htm"
-  SearchEngine="Elasticsearch">
+  SearchEngine="Elasticsearch"
+  PartialWordSearch="true"
+  IncludeStopWords="true"
+  EnableSitemap="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true" />
   <Elasticsearch
-    Guid="a29aeb1a-8134-4ac1-be82-837f5b5dc0b1" />
+    Guid="72bfc2b1-c1e9-418f-91d3-5993731505b5" />
 </CatapultTarget>
